@@ -11,7 +11,7 @@ function login() {
     }
 
     // Check for correct credentials
-    if (userName === "Chirantha" && passWord === "2007103186") {
+    if (userName === "Chirantha" && passWord === "2007") {
           loginForm.style.display = 'none';
           info.style.display = 'block';
         } else {
