@@ -1,0 +1,416 @@
+body {
+    background: linear-gradient(100deg, #0052D4, #00B0A1);
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.scroll-text {
+    animation: scrollText 10s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes scrollText {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+.loginform {
+    background: linear-gradient(100deg, #0052D4, #00B0A1);
+    width: 450px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 7px 30px rgba(0, 0, 0, 0.1);
+}
+
+.topic {
+    background-color: rgba(255, 255, 255, 0.288);
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.description {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.log {
+    width: 350px;
+    background: linear-gradient(100deg, #0052D4, #00B0A1);
+    padding: 20px;
+    color: rgb(240, 248, 255);
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.btn1 {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #0ddaf5;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+.btn1:hover{
+    background-color: #33333373;
+}
+
+.info {
+    width: 600px;
+    height: 450px;
+    background: linear-gradient(100deg, #0ddaf5, #0670fa);
+    border-radius: 15px;
+    margin-top: 25px;
+    display: none;
+}
+
+.Name {
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 70px;
+    background: linear-gradient(100deg, #00BFFF, #4585fd);
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+.Month {
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 70px;
+    background: linear-gradient(100deg, #00BFFF, #4585fd);
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 170px;
+    
+}
+.Aamount {
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 70px;
+    background: linear-gradient(100deg, #00BFFF, #4585fd);
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+.Number {
+    color: rgb(255, 255, 255);
+    width: 260px;
+    height: 70px;
+    background: linear-gradient(100deg, #00BFFF, #4585fd);
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 170px;
+}
+
+.btn2 {
+    width: 150px;
+    height: 35px;
+    color: white;
+    background-color: #0ddaf5;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-left: 280px;
+    transition: background-color 0.5s;
+}
+.btn2:hover{
+    background-color: #33333373;
+}
+
+.btn4{
+    width:150px;
+    height:35px;
+    color:white;
+    background-color:#0ddaf5;
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.5s;
+}
+.btn4:hover{
+    background-color: #33333373;
+}
+
+
+
+.output {
+    width: 600px;
+    height: 570px;
+    background: linear-gradient(100deg, #00BFFF, #4585fd);
+    border-radius: 15px;
+    position: absolute;
+    display: none;
+}
+
+.title {
+    background-color: rgba(255, 255, 255, 0.192);
+    width: 250px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 190px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MONTH{
+    background-color: rgba(255, 255, 255, 0.192);
+    width: 200px;
+    color: #ffffff;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400PX;
+    margin-top: 20PX;
+    border-radius: 10PX;
+}
+
+.money {
+    background-color: beige;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    
+}
+
+.Amoney {
+    background-color: beige;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.interest {
+    background-color: beige;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.Famount {
+    background-color: beige;
+    border-radius: 10px;
+    width: 200px;
+    height: 35px;
+    display: flex;
+    margin-left: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+
+
+.btn3 {
+    width:150px;
+    height:35px;
+    color:white;
+    background-color:#0ddaf5;
+    border:none;
+    border-radius: 10px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 350px;
+    transition: background-color 0.5s;
+}
+.btn3:hover{
+    background-color: #33333373;
+}
+
+
+
+
+.h31, .h32, .h33, .h34 {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    margin-left: 100px;
+
+}
+
+.backdiv1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img1{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display:none ;
+    border-radius: 45px;
+}
+.img2{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv3{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img3{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv4{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img4{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv5{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img5{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv6{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img6{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv7{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    border-radius: 45px;
+    display: none;
+}
+.img7{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv8{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    border-radius: 45px;
+    display: none;
+}
+.img8{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv9{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img9{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv10{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img10{
+    position: absolute;
+    border-radius: 45px;
+}
+
+.backdiv11{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    margin-left: 350px;
+    display: none;
+    border-radius: 45px;
+}
+.img11{
+    position: absolute;
+    border-radius: 45px;
+}
+
+
+
+

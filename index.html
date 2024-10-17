@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <div class="loginform" id="loginform">
+        <div class="topic">Login Form</div><br>
+        <div class="description">
+            <marquee>WELCOME FOR MONEY SITE</marquee>
+        </div>
+        <div class="log">
+            User Name  &nbsp;<input type="text" placeholder="USER NAME" class="username" id="username"><br>
+            Password  &nbsp;&nbsp;&nbsp;&nbsp;<input type="password" placeholder="PASSWORD" class="password" id="password">&nbsp;<br>
+        </div>
+        <button class="btn1" id="btn1" type="button" onclick="login();">LOGIN</button>
+    </div>    
+        <!-- Detail submit -->
+    <div class="info" id="info">
+            <div class="Name" id="Name">නම <br><input type="text" placeholder="NAME" class="name" id="name"></div><br>
+            <div class="Number" id="Number">සීට්ටු වාරය <br><input type="text" placeholder="NUMBER" class="number" id="number"></div><br>
+            <div class="Aamount" id="Aamount"> වෙන්දේසි මුදල <br><input type="text" placeholder="AUCTION AMOUNT" class="amount" id="amount"></div><br>
+            <div class="Month" id="Month">මාසය <br><input type="text" placeholder="Month" class="month" id="month"></div><br>
+            <button class="btn2" id="btn2" type="button" onclick="calculate();">CALCULATE</button>             <button class="btn4" id="btn4" type="button" onclick="back1();">BACK</button>
+
+    </div><br>
+
+    <div class="output" id="output">
+                  <div class="title" id="title"></div><div class="MONTH" id="MONTH"></div><br>
+                  <div class="backdiv1" id="div1">
+                   <img src="abans.jpg" class="img1" id="img1" alt=""></div>
+                   <div class="backdiv2" id="div2">
+                    <img src="janani.jpg" class="img2" id="img2" alt=""></div>
+                    <div class="backdiv3" id="div3">
+                        <img src="kalum.jpg" class="img3" id="img3" alt=""></div>
+                        <div class="backdiv4" id="div4">
+                            <img src="mahesh.jpg" class="img4" id="img4" alt=""></div>
+                            <div class="backdiv5" id="div5">
+                                <img src="nalin.jpg" class="img5" id="img5" alt=""></div>
+                                <div class="backdiv6" id="div6">
+                                    <img src="p mamma.jpg" class="img6" id="img6" alt=""></div>
+                                    <div class="backdiv7" id="div7">
+                                        <img src="pathum.jpg" class="img7" id="img7" alt=""></div>
+                                        <div class="backdiv8" id="div8">
+                                            <img src="renuka.jpg" class="img8" id="img8" alt=""></div>
+                                            <div class="backdiv9" id="div9">
+                                                <img src="rohana.jpg" class="img9" id="img9" alt=""></div>
+                                                <div class="backdiv10" id="div10">
+                                                    <img src="sugath.jpg" class="img10" id="img10" alt=""></div>
+                                                    <div class="backdiv11" id="div11">
+                                                        <img src="samantha.jpg" class="img11" id="img11" alt=""></div>
+                 <h3 class="h31">මුලු මුදල</h3><div class="money" id="money"></div><br>
+                 <h3 class="h32"> වෙන්දේසි මුදල</h3> <div class="Amoney" id="Amoney"></div><br>
+                 <h3 class="h33">පොලිය</h3> <div class="interest" id="interest"></div><br>
+                 <h3 class="h34"> වාරිකය</h3> <div class="Famount" id="Famount"></div><br>
+                 <button class="btn3" id="btn3" type="button" onclick="over();">OVER</button>
+                 
+                
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
